@@ -23,5 +23,5 @@ const products = [
          stars: 4.5,
         count: 56,
     },
-    priceCents:  799, 
+    priceCents:  790, 
 }];
