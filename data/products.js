@@ -56,6 +56,7 @@ class Product {
   }
  }  
 
+
  /*
  const date = new Date();
  console.log(date);
@@ -729,3 +730,4 @@ export const products = [
   }
  return new Product(productDetails);
 });
+
