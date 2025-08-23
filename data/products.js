@@ -56,6 +56,14 @@ class Product {
   }
  }  
 
+ async function loadPage(){
+  console.log('load page'); 
+  return 'value2';
+ } 
+ loadPage().then(()=> {
+  console.log('next step');
+  console.log(value);
+ });
 
 export const products = [
   {
