@@ -56,15 +56,7 @@ class Product {
   }
  }  
 
- async function loadPage(){
-  console.log('load page'); 
-  return 'value2';
- } 
- loadPage().then(()=> {
-  console.log('next step');
-  console.log(value);
- });
-
+ 
 export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
